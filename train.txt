@@ -1,2 +1,263 @@
 python -m rasa_nlu.train -c config.yml --data data/nlu_data.md -o models --fixed_model_name nlu_model --project current --verbose
 https://blog.rasa.com/how-to-handle-multiple-intents-per-input-using-rasa-nlu-tensorflow-pipeline/
+
+
+quality auidt results
+ completed audits
+ audit type-preclosure
+ total agents audited-
+ total cases audited
+ quality queue
+ service category, service offering, 
+ portal analytics- regions wise adoption - (deteriorate%), flat%,improve%
+ 
+ total cases analyzed 
+	external cases
+	internal cases
+	average age of the case
+	
+total emails analyzed
+	average external email per case
+	average internal email per case
+	agent to requester email ratio 
+case channel: case,chat,phone 
+requester type: External,Internal
+
+Customer critical ,compliance, business critical
+
+Negative impact by section:
+	communication,customer update, case documentation,follow process,eligibility check,case routing,first response,customer expectations
+
+
+
+Lead Source
+
+google
+facebook
+facebook-py
+nridealexpert
+programmatic
+affiliate-consulto
+facebook_pyxis
+instagram-py
+instagram_pyxis
+
+
+
+Disposition
+-
+Account Activate and Funded
+Account Opened With Funding
+Account Opened With Zero IP
+Activation pending
+Call Back - CB
+Call Back - Contact
+Connected by Email
+Consent received
+Contact - Customer Unresponsive
+Contact - Not reachable
+Contact - Ringing
+Contact - Switch Off
+Contact - Tritones
+Contact - Voicemail
+DND
+Do Not Call
+Enquired abt Other Products
+Existing account check done
+Existing Customer
+Fixed Deposit Enquiry
+Form Sent by Customer
+Forms Filled
+FU - Contact
+FU - Customer unresponsive
+FU - Email Confirmation Recd
+FU - Expecting scan copies
+FU – Final Scan Copy Verified
+FU - Forms Sent to CPU
+FU - Hard Copy Hold
+FU - NI - coming to India/ visit branch
+FU - NI - Hard copy hold
+FU - NI - local branch
+FU - NI - Opened account with other bank
+FU - NI - Soft copy hold
+FU - Not reachable
+FU - PickUp Done
+FU - PickUp Issue
+FU - Processing status informed
+FU - Ready to Send Form
+FU - Redesignation Form Verified
+FU - Ringing
+FU - Soft Copy Hold
+FU - Switch Off
+FU - Tritones
+FU - Unresponsive 
+FU - Voicemail
+FU- Expecting Hard Copy
+FU- Hard copy Recd
+FU–Contact Number Verified
+FU-Form Sent
+FU-Forms Verified
+Funding Pending – OTP Service Issue
+Funding Pending – Personal Details Service Issue
+Funding Pending – WK Service Issue
+Funding pending- PTP
+Funding pending- RTP
+Funding Pending-NC
+Inbound – Call Back
+NE – Signature mismatch
+NI - Already in contact with HDFC
+NI - Coming to India / Visit Branch
+NI - HDFC Issue
+NI - Left Details by Mistake
+NI - No Branch in Overseas
+NI - Opened Account with other bank
+NI - Others
+NI – Undecided
+NO Number
+Not Eligible - Docs
+Not Eligible - IP Cheque/DD
+Not Eligible – Language Barrier
+Not Eligible - Linkage
+Not Eligible - Not an NRI
+Not Eligible - PEP
+Not reachable
+Online - Forms filled
+Passport Check Done
+Payment Pending Follow Up
+Profile Details
+Qualified – ME/Others
+Qualified – Regular
+Qualified - Undecided
+Quick Remit-PTP
+Quick Remit–RTP
+Relationship Manager/Associate assigned
+Remittance pending- NC
+Remittance pending- PTP
+Remittance pending-RTP
+Remittance Proof Forwarded
+Ringing
+Shared with Prashant
+Switch Off
+Tritone
+Unresponsive NO Number
+Unresponsive Not reachable
+Unresponsive Ringing
+Unresponsive Switch Off
+Unresponsive Tritones
+Unresponsive Voicemail
+Unresponsive Wrong Number
+Voicemail
+Wrong Number
+Remittance - India Link Not Match
+Remittance - Remitter Name Mismatch
+Remittance – Other Issue
+Remittance - Remitter Name Not Provided
+Language Barrier
+NI - Service Issue
+NI - Will Update
+NI - Will Travel in Future
+NI – Looking Cr/Db Card
+NI - Payment Concern
+NI – Already Travelled
+NI-High Min Balance
+Default Disposition
+Remittance – No Debit
+Funding Pending – Not Interested
+Remittance Proof - Received
+Unreponsive - Non Contactable
+FU - Unresponsive
+Busy
+None
+Abandoned
+AutoCallCompletion
+No Answer
+Unknown
+General Error
+Stale
+Dropped On No Answer
+SIT Detected
+SIT NC (No Circuit)
+Dropped
+Attested Doc Awaiting
+Not Eligible–Notarization
+Qualified
+Language Barrier – Malayalam
+Not Eligible – Notarization
+Language Barrier – Tamil
+Language Barrier – Telugu
+Language Barrier - Others
+Language Barrier – Kanada
+
+
+Post.Reply
+Post.id
+ID
+Include
+Message.Subject
+Message.Body
+Subject_Body
+Message.URL
+Replies.Comments
+Replies.Comments.Calculated
+Likes
+Number.of.Views
+Date
+Month
+WNumber
+Time.of.Post
+Author
+Parent.Node1
+Theme
+GEN_SUB_CAT
+Sentiment_code
+Product
+Feature_LV1
+Feature_LV2
+Service_LV1
+Service_LV2
+Accessory_LV1
+Accessory_LV2
+Other_LV1
+Other_LV2
+Update_LV1
+Update_LV2
+IncludeForAnswer
+Answered_Old
+Answer_Status
+Answered_NEW
+For_Client_ModeratorReply_YesNo
+MOD_CUST_RESP_ID
+POST_MOD_REPLY_CUST_RESP
+CUST_RESP_SELECTED
+CUST_RESP_STATUS
+CUST_RESP_CAT
+Accepted.As.Solution
+Role
+ModeratorRepliesCount
+OtherManager_Replies_count
+AnyManager_Replies_count
+ModeratorReply_YesNo
+OtherManagerReply_YesNo
+AnyManager_Reply_YesNo
+Weekday
+Time.band
+Word.Count
+Parent.Node2
+Category
+Sentiment_Score
+Topic_level_Keyword
+Override_Senti_Keywords
+Override_Error_Keywords
+Override_Inquiry_Keywords
+Gen_Sub_Keyword
+Super_Idea_Keyword
+Override_Buds_RegEx
+Override_Product_Keywords
+Feature_Regx
+Service_Regx
+Accessory_Regx
+Other_Regx
+Update_Regx
+Root.Message.URL
+Parent.Message.URL
+Data_Update_Status
